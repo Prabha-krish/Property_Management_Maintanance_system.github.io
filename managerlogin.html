@@ -1,0 +1,54 @@
+<?php
+include("connect.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Login page for Employees </title>
+<link rel ="stylesheet" href="style6.css">
+</head>
+<body>
+<header>
+<div class ="Wrapper">
+<div class="logo">
+<img src ="logo3.jpg" alt="BTS">
+</div>
+<ul class="nav-area">
+<li><a href="homepage.html">Home</a></li>
+<li><a href="#">Help</a></li>
+</ul>
+<div class="heading">BTS Property Management & Co.
+</div>
+</header>
+<div class ="box">
+<div class ="container">
+<div class="top-header">
+<span>Manager's Login page!</span>
+<div class= "headding1">Login</div>
+</div>
+<form action="llogin.php" method="post">
+<div class="input1">
+<input type="text" class="input" name="username" placeholder="Username" required>
+<img src="username.jpeg">
+</div>
+<div class="input1">
+<input type="password" class="input" name="password" placeholder="Password" required>
+<img src="password.png">
+</div>
+<div class="input1">
+<input type="submit" class="submit" value="Login" name="submit"href="tenantpay.html">
+</div>
+<div class="bottom">
+<div class="left-side">
+<input type="checkbox" id="remember">
+<lable for ="remember">Remember me</label></div>
+<div class="right-side">
+
+<label><a href ="#"> Forgot Password?</a></label></div>
+</div>
+
+</div>
+</div>
+</form>
+</body>
+</html>

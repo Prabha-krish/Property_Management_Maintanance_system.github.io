@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Home Page of Property Management Maintenance System </title>
+<style>
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background: linear-gradient(rgba(0.9,0,0.2,0.5),rgba(0.9,0,0.2,0.5)),url("lo.jpg");
+    height: 100vh;
+    background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+.logo img{
+	
+	width: 70px;
+	height: auto;
+	float:left;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.box{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	min-height: 35vh;
+
+	
+}
+h3{
+margin-top:40px;
+color:#f2f2f2;
+	font-size:20px;
+	display:flex;
+	justify-content:center;
+	padding: 10px 0 10px 0;
+
+}
+.container{
+	width:350px;
+	display:flex;
+	flex-direction: column;
+	padding: 0 15px 0 15px;
+
+	
+}
+span{
+	color:#f2f2f2;
+	font-size:15px;
+	display:flex;
+	justify-content:center;
+	padding: 10px 0 10px 0;
+}
+
+.input1{
+	display:flex;
+	flex-direction:column;
+margin-top:20px;
+}
+.input{
+height:45px;
+width:300px;
+border:none;
+outline:none;
+border-radius: 30px;
+color:#f2f2f2;
+padding: 0 0 0 55px;
+background: rgba(0.5,0,0.5,0.5);
+
+}
+
+.submit{
+	border:none;
+	border-radius:30px;
+	font-size:15px;
+	height:45px;
+	outline:none;
+	width:300px;
+	background:rgba(255,255,255,0.6);
+	color:black;
+	transition: .5s;
+
+}
+
+.submit:hover{
+	box-shadow: 1px 5px 7px 1px rgba(0,0,0,0.2);
+}
+
+
+
+</style>
+</head>
+<body>
+<h3>Payment Status of Tenants. You can view tenant's monthly rent payment status here by entering Paid/Not paid.</h3>
+<div class ="box">
+<div class ="container">
+<div class="top-header">
+
+<span> Payment status:</span>
+</div>
+
+
+<form action="AQ2.php" method="post">
+<div class="input1">
+<input type="text" class="input" name="status" required>
+</div>
+<div class="input1">
+<input type="submit" class="submit" value="submit" >
+
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>

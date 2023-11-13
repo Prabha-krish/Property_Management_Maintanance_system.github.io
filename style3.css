@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+.wrapper{
+	width:1170px;
+	margin:auto;
+}
+body{
+	background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("lo.jpg");
+    height: 100vh;
+    background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+.logo img{
+	
+	width: 70px;
+	height: auto;
+	float:left;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.heading{
+	
+	position: absolute;
+	width:600px;
+	height:300px;
+	margin:20% 30%;
+	text-align: center;
+    text-shadow: 2px 2px 5px #8600b3;
+	margin-top: 40px;
+	color:#d9d9d9;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: Times New Roman;
+	margin-left: 350px;
+}
+.heading p{
+	font-size: 12px;
+	font-family: Times New Roman;
+	margin-left:0px;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+.nav-area{
+	float: right;
+	list-style : none;
+	margin-top: 30px;
+}
+
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	color: #f2f2f2;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: Times New Roman;
+	font-size: 16px;
+}
+.nav-area li a:hover{
+	background:#d9d9d9;
+	color:#022;
+}
+.cards{
+	display: flex;	
+	justify-content: center;
+}
+.card{
+	background:  #f2f2f2;
+	width:270px;
+	height:400px;
+	margin:20px;
+	border-radius:10px;
+	margin-top:180px;
+	
+}
+.card-image{
+
+	height:160px;
+	margin-bottom:15px;
+	border-radius:10px 10px 0 0;
+	background-size:cover;
+}
+.staff-2{
+	background-image: url("staff.jpg");
+	
+}
+.manager-1{
+	background-image: url("manager.jpg");
+	
+}
+
+.card h{
+	padding: 30px;
+}
+.card a{
+	background-color:#cc33ff;
+	color: #cac7ff;
+	padding: 10px 15px;
+	display:block;
+	text-align:center;
+	margin: 10px 20px;
+}
+
+.card p{
+	padding: 5px;
+}
